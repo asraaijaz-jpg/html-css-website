@@ -1,0 +1,190 @@
+#img1
+{
+height: 10%;
+width: 40%;
+}
+body
+{
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+}
+.dark
+{
+	padding: 15px;
+	background:#35424a;
+	color: #ffffff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.container
+{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+ul
+{
+	padding: 0;
+	margin: 0;
+}
+
+header
+{
+	background-color:#35424a;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #e8491d 3px solid;
+}
+header a
+{
+	color: #ffffff;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 16px;
+}
+header li
+{
+	padding: 0 20px 0 20px;
+	float: right;
+	display: inline;
+}
+header #branding
+{
+	float: left;
+}
+header #branding h1
+{
+	margin: 0
+}
+header nav
+{
+	float=right;
+	margin-top: 10px;
+}
+header .highlight , header .current a
+{
+	color: #e8491d;
+	font-weight: bold;
+}
+header a:hover
+{
+	font-weight: bold;
+	color: #cccccc;
+}
+#showcase
+{
+	min-height: 400px;
+	text-align: center;
+	color: #e8491d;
+	background:url('../images/d.jpg')no-repeat 0;
+}
+#showcase h1
+{
+	margin-top: 100px;
+	margin-bottom: 50px;
+	font-size:40px;
+	color: black;
+}
+#showcase p
+{
+	font-size: 20px;
+	color: black;
+}
+#newsletter
+{
+	background:#35424a;
+	padding: 15px;
+	color: #ffffff;
+}
+#newsletter h1
+{
+	float: left;
+}
+#newsletter form
+{
+	float: right;
+	margin-top: 20px;
+}
+.em1 
+{
+	padding: 4px;
+	height: 26px;
+	widows: 15px;
+}
+.bt1
+{
+	height: 40px;
+	background:#e8491d;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #ffffff;
+	border:0
+}
+#boxes
+{
+	margin-top: 20px;
+}
+#boxes .box
+{
+float: left;
+width: 30%;
+padding: 10px;
+text-align:center;
+}
+
+footer
+{
+	margin-top: 10px;
+	color: #ffffff;
+	background-color: #e8491d;
+	text-align: center;
+	padding: 6px;
+}
+aside#sidebar
+{
+	float: right;
+	width: 30%;
+	margin-top: 10px;
+}
+article#main-col
+{
+	float: left;
+	width: 65%;
+}
+ul#services li
+{
+	list-style: none;
+	padding: 20px;
+	border: #cccccc solid 1px;
+	margin-bottom: 5px;
+	background-color: gray;
+}
+@media(max-width: 786px)
+{
+header #branding ,
+header nav ,
+header nav li
+#newsletter h1,
+#newsletter form{
+float: none;
+text-align: center;
+width: 100%;
+}
+header
+{
+	padding-bottom: 20px;
+}
+#showcase h1{
+	margin-top: 40px;
+}
+#newsletter button
+{
+	display: block;
+	width: 100%;
+}
+}
